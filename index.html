@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50 Days 50 Patterns</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>50 Days 50 Patterns</h1>
+            <p>Explore and Generate Beautiful Patterns</p>
+        </header>
+
+        <div class="display-area">
+            <div class="pattern-output card">
+                <h3>Pattern Output</h3>
+                <pre id="patternDisplay"></pre>
+            </div>
+            <div class="code-output card">
+                <h3>Code Preview</h3>
+                <button class="copy-btn" onclick="copyPattern()">Copy</button>
+                <pre id="codeDisplay"></pre>
+            </div>
+        </div>
+
+        <div class="controls">
+            <label for="patternLength">Pattern Size:</label>
+            <input type="number" id="patternLength" min="5" max="20" value="5">
+            <button onclick="generatePattern()">Generate Pattern</button>
+        </div>
+
+        <div class="pattern-table-container">
+            <table class="pattern-table">
+                <tr>
+                    <td>Right Triangle (Stars)</td>
+                    <td>Left Triangle</td>
+                    <td>Full Pyramid</td>
+                    <td>Inverted Pyramid</td>
+                    <td>Diamond Shape</td>
+                </tr>
+                <tr>
+                    <td>Hollow Square</td>
+                    <td>Hollow Pyramid</td>
+                    <td>Number Pyramid</td>
+                    <td>Reverse Number Pyramid</td>
+                    <td>Pascal’s Triangle</td>
+                </tr>
+                <tr>
+                    <td>Square of Stars</td>
+                    <td>Diagonal Line</td>
+                    <td>Reverse Diagonal Line</td>
+                    <td>Cross (X Shape)</td>
+                    <td>Plus Sign</td>
+                </tr>
+                <tr>
+                    <td>Hourglass</td>
+                    <td>Zigzag Line</td>
+                    <td>Spiral Square</td>
+                    <td>Chessboard</td>
+                    <td>Arrow Pointing Right</td>
+                </tr>
+                <tr>
+                    <td>Arrow Pointing Left</td>
+                    <td>Heart Shape</td>
+                    <td>Circle Approximation</td>
+                    <td>Wave Pattern</td>
+                    <td>Stairs</td>
+                </tr>
+                <tr>
+                    <td>Reverse Stairs</td>
+                    <td>Alternating Numbers</td>
+                    <td>Alphabet Pyramid</td>
+                    <td>Reverse Alphabet Pyramid</td>
+                    <td>Hollow Diamond</td>
+                </tr>
+                <tr>
+                    <td>Butterfly Shape</td>
+                    <td>Christmas Tree</td>
+                    <td>Spiral Numbers</td>
+                    <td>Bordered Square</td>
+                    <td>Checkerboard Numbers</td>
+                </tr>
+                <tr>
+                    <td>Hexagon Shape</td>
+                    <td>Right Triangle (Numbers)</td>
+                    <td>Left Triangle (Stars Dec)</td>
+                    <td>Kite Shape</td>
+                    <td>Snake Pattern</td>
+                </tr>
+                <tr>
+                    <td>Double Pyramid</td>
+                    <td>Star Frame</td>
+                    <td>Number Frame</td>
+                    <td>Swastik Shape</td>
+                    <td>Infinity Symbol</td>
+                </tr>
+                <tr>
+                    <td>Fish Shape</td>
+                    <td>House Shape</td>
+                    <td>Rocket Shape</td>
+                    <td>Smiley Face</td>
+                    <td>Random Pattern</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>Designed & Developed by <span class="team-name">Team JR</span></p>
+                <div class="social-links">
+                    <a href="#" class="social-icon">★</a>
+                    <a href="#" class="social-icon">✦</a>
+                    <a href="#" class="social-icon">✧</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
