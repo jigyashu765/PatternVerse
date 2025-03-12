@@ -375,7 +375,7 @@ console.log(${selectedPattern.toLowerCase().replace(/[^a-z0-9]/gi, '')}(${length
 
 
 //Developed by Team Jr
-    `;
+`;
 
     document.getElementById('codeDisplay').textContent = code;
 }
